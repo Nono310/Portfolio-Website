@@ -1,0 +1,131 @@
+body{
+
+    font-family: "Nunito",sans-serif;
+    line-height: 1.6;
+    background: #fff;
+    overflow-x: hidden;
+    font-size: 16px;
+    color: #939393;
+}
+.main{
+   display: flex;
+    justify-content: space-between;
+   align-items: center;
+   background-color: transparent;
+   border-bottom : 1px solid whitesmoke;
+   width: 100%;
+   position: fixed;
+   z-index: 3;
+}
+.navbar {
+    list-style-type: none;
+    /* padding-right: 60px; */
+    
+   }
+
+.navbar li{
+    display: inline-block;
+    padding-right: 40px;   
+}
+nav{
+ justify-content: flex-end;
+ margin-left: 470px
+}
+.logo{
+  font-size: 24px;
+    color: #343a40;
+    font-weight: 700;
+    position: absolute;
+    width: 45px;
+    height: 40px;
+    margin-top: -4px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #343a40;
+    margin-left: 80px;
+}
+a{
+  position: relative;
+    z-index: 9;
+    cursor: pointer;
+    text-decoration: none;
+   color: #939393;
+}
+a:hover{
+  color: white;
+}
+.nav ul{
+  list-style-type: none;
+}
+.navbar li{
+  display: inline-block;
+
+}
+#welcome-section{
+  width: 100%;
+}
+.background-image{
+  
+  background-image: url("https://img.freepik.com/premium-photo/smiling-young-african-woman-working-laptop-computer-table-home-using-mobile-phone_171337-120438.jpg?w=2000");
+  background-repeat: no-repeat;
+  object-fit: contain;
+  
+    /* background-position: center;
+  */
+}
+.background-image h1{
+  Text-align: center;
+  margin-top: 0;
+  padding-top: 30%;
+  padding-bottom: 70%;
+  font-size: 50px;
+  color:white;
+  font-weight: 900px;
+  font-family: "Nunito";
+  
+}
+#projects{
+  background-color:#fff;
+ justify-content: center;
+ margin-top:-30% ;
+
+  
+
+}
+img{
+  width: 65%;
+  padding-left: 20%;
+  padding-top:50px ;
+
+
+  
+}.projects{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 100px;
+    color: #343a40;
+ 
+}
+footer{
+    background-color: #343a40;
+    height: 70px;
+    padding-top: 40px;
+   
+}
+#profile-link{
+   padding-left: 80px;
+   
+    
+}
+@media screen and (max-width: 480px) {
+    .main{
+        display: flex;
+         justify-content: space-between;
+        align-items: center;
+        background-color: transparent;
+        border-bottom : 1px solid whitesmoke;
+        width: 100%;
+        position: fixed;
+        z-index: 3;
+    }
+}
